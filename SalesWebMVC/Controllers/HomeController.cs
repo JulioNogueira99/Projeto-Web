@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using SalesWebMVC.Models.Entities;
 
 namespace SalesWebMVC.Controllers
 {
@@ -16,7 +17,8 @@ namespace SalesWebMVC.Controllers
         }
 
         public IActionResult About()
-        {
+        { 
+
             ViewData["Message"] = "Your application description page.";
 
             return View();

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using SalesWebMVC.Models.Entities;
 
 namespace SalesWebMVC
 {
@@ -15,6 +16,7 @@ namespace SalesWebMVC
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
